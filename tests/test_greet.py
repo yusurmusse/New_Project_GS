@@ -3,8 +3,7 @@
 # What do you want from the fucntion 
 # assert result == (what is the outcome the code is supposed to give)
 
-from lib.greet import greet
+from lib.greet import *
 def test_greet_by_their_name():
     result = greet("Yusur")
     assert result == "Hello, Yusur!"
-
