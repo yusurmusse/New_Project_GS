@@ -7,6 +7,7 @@ def TODO_checker(text):
     if "#TODO" in text:
         return True
     elif text == "":
-        raise ValueError("There are no #TODO tasks.")
+        raise Exception("There are no #TODO tasks.")
     else:
         return False
+    

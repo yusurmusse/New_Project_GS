@@ -52,8 +52,9 @@ def test_check_if_TODO_is_present_in_string_without_hashtag():
 # TODO_checker("") 
 # => "There are no #TODO tasks"
 def test_check_if_string_is_empty():
-    with pytest.raises(ValueError) as e:
+    with pytest.raises(Exception) as e:
         TODO_checker("")
     error_message = str(e.value)
     assert error_message == "There are no #TODO tasks."
+    
 
