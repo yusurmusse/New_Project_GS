@@ -9,7 +9,8 @@ def check_grammar(text):
     elif text == text.capitalize() and text[-1] in punctuation_list:
         return True
     else:
-        return False
+        return False 
+    
 
     
 

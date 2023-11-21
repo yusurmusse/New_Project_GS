@@ -45,3 +45,4 @@ def test_check_grammar_for_empty_string():
         check_grammar("")
     error_message = str(e.value)
     assert error_message == "Cannot check grammar of an empty string."
+
