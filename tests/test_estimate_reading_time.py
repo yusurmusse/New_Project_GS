@@ -25,3 +25,4 @@ def test_estimate_reading_time_for_400_words():
     text = "word " * 400
     result = estimate_reading_time(text)
     assert result == 2 
+    
